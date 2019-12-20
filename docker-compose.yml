@@ -8,7 +8,7 @@ services:
       - 'pgadminconfig_data:/var/lib/pgadmin'
     restart: always
     environment:
-      PGADMIN_DEFAULT_PASSWORD: password
+      PGADMIN_DEFAULT_PASSWORD: admin
       PGADMIN_DEFAULT_EMAIL: viku@kvimalan.com
 volumes:
   pgadminconfig_data: null
