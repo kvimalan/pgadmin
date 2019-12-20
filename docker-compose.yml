@@ -9,6 +9,6 @@ services:
     restart: always
     environment:
       PGADMIN_DEFAULT_PASSWORD: admin
-      PGADMIN_DEFAULT_EMAIL: viku@skidata.com
+      PGADMIN_DEFAULT_EMAIL: viku@kvimalan.com
 volumes:
   pgadminconfig_data: null
